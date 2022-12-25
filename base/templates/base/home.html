@@ -1,0 +1,75 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zanportofolio</title>
+    <link rel="stylesheet" href="{% static '/css/main.css' %}" type="text/css">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    
+</head>
+<body>
+
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 ">
+            <div class="card card-body h-100 border-info" id="profile-wrapper">
+                <img id="profile-pic" src="{% static 'images/fauzan.png' %}" alt="">
+                <hr>
+                <h4>Hi I'am Fauzan!</h4>
+                <p>I learn using django from Dennis Ivy Youtube Channel</p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card card-body h-100 border-info">
+                <h4>About Me!</h4>
+                <hr>
+                <p>
+                    Hi, my name is Fauzan Aditya Putra, now I'm studying informatics at Amikom University, Yogyakarta.
+                </p>
+                <p>This is my first Web Portfolio using Django Python framework as a beginner I want to learn more about coding and I hope to be an expert in this field.</p>
+                <p>Sorry if my Web is still messy.</p>
+                <hr>
+                <p>My Social Media account.</p>
+
+                <ul class="sosial-links">
+                    <li><a href="https://www.facebook.com/fauzan.adityaputra.92" target="_blank"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+                    <li><a href="https://www.linkedin.com/in/fauzan-aditya-putra-534684252/" target="_blank"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+                    <li><a href="https://twitter.com/Pz17377295" target="_blank"><img class="social" src="{% static 'images/twitter.png' %}"></a></li>
+                    <li><a href="https://www.instagram.com/zaann_ad/?hl=id" target="_blank"><img class="social" src="{% static 'images/instagram.png' %}"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100"></div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body h-100"></div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100"></div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body h-100"></div>
+        </div>
+    </div>
+    <br>
+</div>
+
+
+</body>
+</html>
